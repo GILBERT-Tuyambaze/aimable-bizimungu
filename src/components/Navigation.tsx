@@ -106,7 +106,7 @@ export default function Navigation() {
             <ThemeToggle />
             <Button
               onClick={() => scrollToSection('#contact')}
-              className="rounded-full px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+              className="hidden sm:block rounded-full px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
             >
               <Phone className="mr-2 h-4 w-4" />
               Contact
