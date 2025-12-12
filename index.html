@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aimable Bizimungu - Professional Physiotherapist</title>
+  <meta name="description" content="Professional physiotherapy services by Aimable Bizimungu. Specializing in sports rehabilitation, musculoskeletal therapy, and personalized patient care in Rwanda." />
+  <meta name="author" content="Aimable Bizimungu" />
+  <meta name="keywords" content="physiotherapy, rehabilitation, sports therapy, musculoskeletal, Rwanda, Aimable Bizimungu, physical therapy, pain management" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aimable-bizimungu-physio.com/" />
+  <meta property="og:title" content="Aimable Bizimungu - Professional Physiotherapist" />
+  <meta property="og:description" content="Professional physiotherapy services specializing in sports rehabilitation and musculoskeletal therapy." />
+  <meta property="og:image" content="/assets/hero-light-physiotherapist.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://aimable-bizimungu-physio.com/" />
+  <meta property="twitter:title" content="Aimable Bizimungu - Professional Physiotherapist" />
+  <meta property="twitter:description" content="Professional physiotherapy services specializing in sports rehabilitation and musculoskeletal therapy." />
+  <meta property="twitter:image" content="/assets/hero-light-physiotherapist.jpg" />
+
+  <!-- PWA Meta Tags -->
+  <meta name="application-name" content="AB Physiotherapy" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="AB Physiotherapy" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-config" content="/browserconfig.xml" />
+  <meta name="msapplication-TileColor" content="#2563eb" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="theme-color" content="#2563eb" />
+
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" href="/images/photo1764491007.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/photo1764491007.jpg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/photo1764491007.jpg" />
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="/assets/hero-light-physiotherapist.jpg" as="image" />
+  <link rel="preload" href="/assets/hero-dark-physiotherapist.jpg" as="image" />
+
+  <!-- DNS Prefetch for external resources -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aimable Bizimungu",
+    "jobTitle": "Physiotherapist",
+    "description": "Professional physiotherapist specializing in sports rehabilitation and musculoskeletal therapy",
+    "url": "https://aimable-bizimungu-physio.com",
+    "telephone": "0784356207",
+    "email": "aimable.bizimungu@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Rwanda"
+    },
+    "sameAs": [
+      "https://linkedin.com/in/aimable-bizimungu",
+      "https://twitter.com/aimable_physio"
+    ],
+    "knowsAbout": [
+      "Physiotherapy",
+      "Sports Rehabilitation",
+      "Musculoskeletal Therapy",
+      "Pain Management",
+      "Physical Therapy"
+    ],
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "University of Rwanda"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Professional Physiotherapy Services"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  
+  <!-- PWA Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+
+    // Handle PWA install
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+    });
+
+    if (window.matchMedia('(display-mode: standalone)').matches) {
+      console.log('Running as PWA');
+    }
+  </script>
+</body>
+
+</html>
