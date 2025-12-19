@@ -181,8 +181,8 @@ export default function Hero() {
                 <div className="relative overflow-hidden rounded-2xl">
                   <img
                     src={resolvedTheme === 'dark' 
-                      ? '/assets/hero-dark-physiotherapist.jpg' 
-                      : '/assets/hero-light-physiotherapist.jpg'
+                      ? '/images/hero-dark-physiotherapist.jpg' 
+                      : '/images/Aimable-bizimungu-hero-light.jpg'
                     }
                     alt="Aimable Bizimungu - Professional Physiotherapist"
                     className="w-full h-[450px] lg:h-[500px] object-cover transition-transform duration-700 group-hover:scale-110"
