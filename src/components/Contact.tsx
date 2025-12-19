@@ -54,7 +54,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Address',
-      details: ['aimablebizimungu@gmail.com'],
+      details: ['bizimungu50@gmail.com'],
       action: 'Send Email'
     },
     {
