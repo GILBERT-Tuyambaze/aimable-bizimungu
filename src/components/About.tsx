@@ -47,8 +47,8 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={resolvedTheme === 'dark' 
-                  ? '/assets/about-dark-therapy.jpg' 
-                  : '/assets/about-light-therapy.jpg'
+                  ? '/images/Aimable-bizimungu-about-dark.jpg .jpg' 
+                  : '/images/ Aimable-bizimungu-about-light.jpg'
                 }
                 alt="Aimable Bizimungu in therapy session"
                 className="w-full h-[600px] object-cover"
