@@ -81,12 +81,6 @@ export default function Gallery() {
       alt: 'Sports medicine facility',
       title: 'Sports Medicine Facility',
       category: 'Facilities'
-    },
-    {
-      src: '/images/Proffession_2.jpg',
-      alt: 'Patient consultation',
-      title: 'Patient Consultation',
-      category: 'Professional'
     }
   ]
 
