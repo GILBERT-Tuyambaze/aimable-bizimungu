@@ -3,7 +3,14 @@ const urlsToCache = [
   '/',
   '/assets/hero-light-physiotherapist.jpg',
   '/assets/hero-dark-physiotherapist.jpg',
-  '/images/Physiotherapist.jpg',
+  '/images/ Aimable-bizimungu-about-light.jpg',
+  '/images/Aimable-bizimungu-about-dark.jpg .jpg',
+  '/images/Aimable-bizimungu-hero-light.jpg',
+  'public/images/Aimable-bizimungu-proffession-1.jpg',
+  'public/images/Aimable-bizimungu-proffession-2.jpg',
+  'public/images/Aimable-bizimungu-proffession-3.jpg',
+  'public/images/Aimable-bizimungu-proffession-5.jp',
+  'public/images/Aimable-bizimungu-proffession-4.jpg',
   '/assets/icon-512x512.png',
   '/manifest.json'
 ];
