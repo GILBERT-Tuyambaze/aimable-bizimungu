@@ -20,18 +20,50 @@ export default function Gallery() {
       category: 'Equipment'
     },
     {
-      src: '/assets/about-light-therapy_variant_1.jpg',
+      src: '/images/Aimable-bizimungu-about-dark.jpg .jpg',
       alt: 'Physiotherapy treatment session',
       title: 'Treatment Session',
       category: 'Treatment'
     },
     {
-      src: '/assets/hero-light-physiotherapist_variant_1.jpg',
+      src: '/images/hero-dark-physiotherapist.jpg',
       alt: 'Professional physiotherapist portrait',
       title: 'Professional Practice',
       category: 'Professional'
     },
-    // Placeholder images for additional gallery content
+    
+    {
+      src: '/images/Aimable-bizimungu-proffession-1.jpg',
+      alt: 'Professional physiotherapist portrait',
+      title: 'Professional Practice',
+      category: 'Professional'
+    },
+    
+    {
+      src: '/images/Aimable-bizimungu-proffession-2.jpg',
+      alt: 'Professional physiotherapist portrait',
+      title: 'Professional Practice',
+      category: 'Professional'
+    },
+    
+    {
+      src: '/images/Aimable-bizimungu-proffession-3.jpg',
+      alt: 'Professional physiotherapist portrait',
+      title: 'Professional Practice',
+      category: 'Professional'
+    },
+    {
+      src: '/images/Aimable-bizimungu-proffession-4.jpg',
+      alt: 'Professional physiotherapist portrait',
+      title: 'Professional Practice',
+      category: 'Professional'
+    },
+    {
+      src: '/images/Aimable-bizimungu-proffession-5.jpg',
+      alt: 'Professional physiotherapist portrait',
+      title: 'Professional Practice',
+      category: 'Professional'
+    },
     {
       src: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       alt: 'Physical therapy equipment',
@@ -51,7 +83,7 @@ export default function Gallery() {
       category: 'Facilities'
     },
     {
-      src: 'https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      src: '/images/Proffession_2.jpg',
       alt: 'Patient consultation',
       title: 'Patient Consultation',
       category: 'Professional'
