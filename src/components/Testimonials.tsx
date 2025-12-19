@@ -14,35 +14,35 @@ export default function Testimonials() {
     {
       name: 'Michael Chen',
       role: 'Office Worker',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      image: '/images/Testimonials.jpg',
       rating: 5,
       quote: 'After years of chronic back pain from desk work, Aimable developed a treatment plan that not only relieved my pain but also taught me how to prevent future issues. Highly professional and caring.'
     },
     {
       name: 'Emma Williams',
       role: 'Senior Patient',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      image: '/images/Testimonials.jpg',
       rating: 5,
       quote: 'The post-surgery rehabilitation program designed by Aimable was comprehensive and effective. His patience and encouragement throughout the recovery process were invaluable. I regained full mobility faster than expected.'
     },
     {
       name: 'David Mukamana',
       role: 'Cricket Player',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      image: '/images/Testimonials.jpg',
       rating: 5,
       quote: 'Having worked with Aimable during international tournaments, I can attest to his exceptional skills in sports medicine. His injury prevention strategies and recovery protocols are world-class.'
     },
     {
       name: 'Grace Uwimana',
       role: 'Physical Therapy Patient',
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      image: '/images/Testimonials.jpg',
       rating: 5,
       quote: 'Aimable\'s holistic approach to physiotherapy addresses not just the symptoms but the root cause of problems. His exercise programs are well-designed and his follow-up care is exceptional.'
     },
     {
       name: 'Robert Nkurunziza',
       role: 'Former Patient',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
+      image: '/images/Testimonials.jpg',
       rating: 5,
       quote: 'Professional, knowledgeable, and genuinely caring. Aimable helped me overcome a shoulder injury that had been bothering me for months. His treatment approach is both scientific and compassionate.'
     }
